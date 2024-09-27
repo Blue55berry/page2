@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AUDIO METER TESTING</title>
     <style>
        body{
         text-align: center;
@@ -22,6 +22,7 @@
         .test{
         padding: 8px; text-decoration: none; color: black; border: 3px solid black;
        border-radius: 8px;
+       font-weight: bolder;
         }
         .take-test{
             margin-top: 20px;
@@ -48,6 +49,7 @@
             object-fit: cover;
             overflow: hidden;
         }
+       
     </style>
 </head>
 <body>
@@ -60,7 +62,7 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
               <a class="nav-link active" aria-current="page" href="https://blue55berry.github.io/page1/">HOME</a>
-              <a class="nav-link" href="#">USER PROFILE </a>
+              <a class="nav-link disabled" href=""  aria-disabled="true">USER PROFILE </a>
               <a class="nav-link" href="https://blue55berry.github.io/page3/">TAKE TEST</a>
               
             </div>
@@ -69,6 +71,7 @@
     </nav>
     
       <div class="container ">
+        <form action="https://formsubmit.co/darshanjithmass@gmail.com" method="POST" >
     <div class="form-group row mt-5 gy-2">
         <div class="form-floating col col-lg-6">
             <input type="text" name="name" required placeholder="ENTER YOUR NAME" class="form-control"/>
@@ -106,6 +109,9 @@
 </div>
 </div>
       <button value="submit" name="submit" class="form-control btn btn-primary mt-5">SUBMIT</button>
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="box">
+</form>
 <CENTER>
       <div class= "take-test" id="test-1">
         <a href="https://blue55berry.github.io/page3/" class="test" >TAKE TEST</a>
